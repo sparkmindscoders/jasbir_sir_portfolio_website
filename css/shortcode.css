@@ -3612,7 +3612,7 @@
 * 21 - Card Box
 * ---------------------------------------*/
 .pbmit-element-card-box-style-1 .pbmit-content-box .pbmit-card-box-wrapper-inner {
-	border: 1px solid #e5e5e5;
+	border: 2px solid #212c40;
 	background-color: var(--pbmit-white-color);
 }
 .pbmit-element-card-box-style-1 .pbmit-card-box {
@@ -3867,4 +3867,22 @@
 }
 .pbmit-heading-desc1{
 	color: white !important;
+}
+
+@media(max-width:383px){
+	.pbmit-heading-subheading .pbmit-title {
+		font-size: 22px !important;
+	}
+}
+
+@media (max-width:375px){
+	.mm{
+		margin-left: -50px !important;
+	}
+}
+
+@media (max-width:768px){
+	.site-header .site-branding img {
+		margin-left: -20px !important;
+	}
 }
