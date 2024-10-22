@@ -1001,7 +1001,7 @@
     letter-spacing: 0px;
     text-transform: none;
     font-style: normal;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	color: var(--pbmit-global-color);
 	font-family: var(--pbmit-heading-typography-font-family);
 } 
@@ -2115,7 +2115,7 @@ textarea.form-control{
 .widget-title {
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     color: #EF921F;
 }
 
@@ -2170,4 +2170,20 @@ textarea.form-control{
     .pbmit-footer-big-area-wrapper .col-md-6 {
         margin-bottom: 30px;
     }
+}
+.f {
+	border: 1px solid #EF921F;
+	color: #fff;
+	padding: 10px;
+	border-radius: 50%;
+}
+.list-unstyled li i{
+	color: #ddd;
+}
+.f :hover{
+	background-color: #EF921F;
+	
+}
+.second-footer ul li a{
+	color: #abadb4;
 }
