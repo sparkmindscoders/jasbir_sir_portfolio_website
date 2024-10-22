@@ -2066,3 +2066,108 @@ textarea.form-control{
 	  color: #fff !important;
 	}
   }
+  /* .footer.site-footer .pbmit-footer-big-area-wrapper .widget .widget-title{
+	font-size: 30px;
+	color: #EF921F;
+  }
+  .footer.site-footer .pbmit-footer-big-area-wrapper .widget .pbmit-contact-widget-lines ul li a{
+	color: #E5E5E5;
+	line-height: 12px;
+	cursor: pointer;
+  } 
+  .footer.site-footer .pbmit-footer-big-area-wrapper .widget .pbmit-contact-widget-lines ul li a:hover{
+	color: #EF921F;
+  } */
+   /* Footer Background and Base Styling */
+/* .pbmit-footer-big-area-wrapper {
+    background-color: #1d1d1d;
+    padding: 60px 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+} */
+
+.pbmit-footer-logo img {
+    max-width: 300px;
+}
+
+/* Social Links Styling */
+.footer-social-links li a {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+	text-align: center;
+}
+
+.footer-social-links li a:hover {
+    color: #1d1d1d;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.footer-social-links {
+    margin-top: 15px;
+}
+
+/* Widget Titles */
+.widget-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #EF921F;
+}
+
+/* List Links */
+.widget ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.widget ul li a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.widget ul li a:hover {
+    color: #EF921F;
+    text-decoration: underline;
+}
+
+/* Contact Icons and Text */
+.pbmit-contact-widget-lines i {
+    margin-right: 10px;
+    color: #f8c71c;
+    font-size: 18px;
+}
+
+.pbmit-contact-widget-lines a {
+    color: #ddd;
+}
+
+.pbmit-contact-widget-lines a:hover {
+    color: #f8c71c;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .pbmit-footer-logo {
+        text-align: center;
+    }
+
+    .footer-social-links {
+        justify-content: center;
+    }
+
+    .widget {
+        text-align: center;
+    }
+
+    .pbmit-footer-big-area-wrapper .col-xl-4,
+    .pbmit-footer-big-area-wrapper .col-lg-3,
+    .pbmit-footer-big-area-wrapper .col-md-6 {
+        margin-bottom: 30px;
+    }
+}
