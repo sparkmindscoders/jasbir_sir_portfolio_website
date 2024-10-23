@@ -1372,3 +1372,20 @@ INDEX:
         font-size: 10px !important;
     }
 }
+
+
+
+
+@media (min-width:425px) and (max-width:2000px){
+    .gg{
+        margin-left: 67px !important;
+    }
+}
+
+
+
+@media (min-width:1400px) and (max-width:2000px ){
+    .hh{
+        margin-right: 70px !important;
+    }
+}
