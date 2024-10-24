@@ -2593,7 +2593,7 @@
 /*  10 - Title Bar
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper{
-	background-image: url(../images/titlebar-bg.jpg);
+	background-image:url(../images/bg/about.jpg) ;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
